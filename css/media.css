@@ -1,0 +1,303 @@
+@media (max-width: 1920px){
+    .new__season__cards{
+        margin: 0 140px;
+    }
+    .card__new__season{
+        max-width: 200px;
+    }
+    .card__new__season:nth-last-child(2){
+        margin: 0 90px;
+    }
+    .card__image__fon__new-season{
+        width: 230px;
+        height: 290px;
+        background-color: #191B1C;
+    }
+    .card__image__new-season{
+        max-width: 200px;
+        max-height: 260px;
+        margin: 20px 0 0 10px;
+    }
+    
+
+    .old__collaction__image{
+        margin-top: 15px;
+        width: 750px;
+        height: 585px;
+
+    }
+
+    .old__collaction__text__column{
+        margin-left: 25px;
+    }
+
+    .articles__row__image{
+        max-width: 789px;
+    }
+
+    .articles__row__column{
+        margin: 48px 100px 175px 90px;
+    }
+    
+    .articles__row__column:first-child{
+        margin: 53px 100px 175px 90px;
+    }
+
+}
+
+@media (max-width: 1740px){
+    .new__season__cards{
+        margin: 0 100px;
+    }
+    .card__new__season:nth-last-child(2){
+        margin: 0 20px;
+    }
+
+    .card__image__fon__new-season{
+        width: 200px;
+        height: 260px;
+        background-color: #191B1C;
+    }
+    
+    .card__image__new-season{
+        max-width: 175px;
+        max-height: 235px;
+        margin: 20px 0 0 10px;
+    }
+
+    .old__collaction__image{
+        margin-top: 15px;
+        width: 750px;
+        height: 585px;
+
+    }
+
+    .old__collaction__text__column{
+        margin-left: 50px;
+    }
+
+    .articles__row__image{
+        max-width: 789px;
+    }
+
+    .articles__row__column{
+        margin: 48px 100px 175px 90px;
+    }
+    
+    .articles__row__column:first-child{
+        margin: 53px 100px 175px 90px;
+    }
+}
+
+@media(max-width: 1440px){
+    .collaction__row:first-child{
+        flex-direction: column-reverse;
+    }
+    .new__collaction{
+        width: 880px;
+    }
+    .collaction__row{
+        flex-direction: column;
+    }
+    .card__new__season:nth-last-child(2){
+        margin: 0 60px;
+    }
+    .old__collaction__image{
+        align-items: center;
+    }
+    .partners__conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .partners__row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners__link{
+        padding: 15px;
+    }
+    .articles__row__image{
+        max-width: 60%;
+        max-height: 380px;
+    }
+
+    .articles__row__column{
+        margin: 48px 100px 20px 20px;
+    }
+    
+    .articles__row__column:first-child{
+        margin: 53px 100px 20px 20px;
+    }
+    .footer__row{
+        flex-direction: column;
+        align-items: center;
+    }      
+    .footer__line__labels{
+        justify-content: center;
+    }
+    .footer__line__labels p{
+        padding: 0 30px;
+    }
+
+    .card__row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card__column{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .сard__new-receipts{
+        margin: 20px;
+    }
+    .card__second:nth-last-child(3){
+        margin-top: 20px;
+    }
+
+    .contacts{
+        justify-content: center;
+    }
+
+    .contact{
+        margin-right: 10px;
+    }
+    .register__link{
+        margin-left: 10px;
+    }
+    .header__nav__elements{
+        justify-content: center;
+    }
+    .header__nav__title{
+        font-size: 16px;
+    }
+    .nav__link{
+        font-size: 8px;
+        padding: 31px 8px;
+    }
+
+    .header__information__column{
+        max-height: 200px;
+        max-width: 200px;
+        padding: 18px 18px;
+        margin-top: 160px;
+    }
+    .header__information__title{
+        font-size: 36px;
+    }
+    .header__information__text{
+        font-size: 8px;
+    }
+    .nav__icons{
+        margin-left: 10px;
+    }
+    .nav__img__last{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 1024px){
+    .articles__row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .articles__row__column{
+        align-items: center;
+        text-align: center;
+
+    }
+    .articles__text{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .articles__row__column{
+        margin: 48px 135px 40px 145px;
+    }
+    
+    .articles__row__column:first-child{
+        margin: 53px 135px 40px 145px;
+    }
+    .articles__subtitle{
+        font-size: 14px;
+    }
+    .articles__row__image{
+        max-width: 100%;
+    }
+    .button{
+        font-size: 12px;
+        padding: 10px 20px
+    }
+    .articles__row__more__label{
+        font-size: 12px;
+        margin-left: 8px;
+    }
+    .partners__img{
+        max-width: 100%;
+    }
+    .footer__row{
+        align-items: center;
+        text-align: center;
+    }
+    .footer__text{
+        font-size: 10px;
+        max-width: 80%;
+        margin-left: 40px;
+    }
+    .footer__category{
+        max-width: 80%;
+    }
+    .footer__message{
+        max-width: 80%;
+    }
+    .card__image__fon__new-season{
+        width: 200px;
+        height: 245px;
+        background-color: #191B1C;
+    }
+    .card__image__new-season{
+        max-width: 160px;
+        max-height: 200px;
+        margin: 20px 0 0 10px;
+    }
+    .new__season__cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__new__season:nth-last-child(2){
+        margin: 20px 0px;
+    }
+    .new__collaction{
+        max-width: 100%;
+    }
+    .old__collaction__image{
+        max-width: 100%;
+        height: 350px;
+    }
+    .old__collaction__text__column{
+        margin-right: 54px;
+    }
+    .old__collaction__text{
+        font-size: 12px;
+    }
+    .card__image__fon{
+        width: 200px;
+        height: 245px;
+        background-color: #191B1C;
+    }
+    .card__image{
+        max-width: 160px;
+        max-height: 200px;
+        margin: 20px 0 0 10px;
+    }
+    .card__column{
+        flex-direction: column;
+        align-items: center4;
+    }
+    .card__image__gucci{
+        max-width: 180px;
+        max-height: 230px;
+        margin: 10px 0 0 10px;
+    }
+
+}

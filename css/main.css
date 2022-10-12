@@ -1,0 +1,741 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+
+.conteiner{
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.contact__information{
+    background-color: black;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    padding: 14px 0;
+}
+
+.register__link{
+    text-decoration: none;
+}
+
+.register{
+    text-decoration: none;
+    display: flex;
+    padding: 14px 0;
+}
+
+.text{
+    font-family: 'PT Sans';
+    font-weight: 400;
+}
+
+.header__text{
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    margin-left: 16px;
+}
+
+.text__log-in{
+    text-decoration: none;
+}
+
+.text__log-in:hover{
+    color:darkkhaki;
+}
+
+.header__nav{
+    background-color: #0F0F0F;
+}
+
+.header__nav__elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav__content{
+    display: flex;
+}
+
+.header__nav__title{
+    font-size: 36px;
+}
+
+.header__title{
+    font-family: 'Stick No Bills';
+    font-weight: 700;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nav__buttons{
+    display: flex;
+}
+
+
+.nav__link{
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #969696;
+    flex-grow:1;
+    padding: 31px 18px;
+}
+
+
+.nav__link:hover{
+    background-color:  #1F1F1F;
+    color: #FFFFFF;
+}
+
+.nav__icons{
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.nav__img__last{
+    margin-left: 40px;
+}
+
+.header__information{
+    display: block;
+    background-image: url('../images/bacgraund/bacgraund-header.jpg');
+}
+
+
+.header__information__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__information__column{
+    max-height: 320px;
+    max-width: 320px;
+    padding: 93px 61px;
+    margin-top: 160px;
+    border: 3px solid #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.header__information__title{
+    max-width: 185px;
+    font-size: 64px;
+    line-height: 96px;
+}
+
+.header__title__hr{
+    max-width: 179px;
+    color: #FFFFFF;
+    height: 2px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+.header__title__text{
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__information__text{
+    margin-bottom: 154px;
+    max-width: 730px;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.big-conteiner{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.collections{
+    background-color: black;
+}
+
+.collections__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.collaction__row{
+    display: flex;
+    align-items: center;
+}
+
+.new-season{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__new__season__title{
+    margin-top: 93px;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__hr{
+    width: 120px;
+    color: #FFFFFF;
+    height: 2px;
+}
+
+.new__season__hr{
+   margin: 50px 0px;
+}
+
+
+
+.new__season__cards{
+    display: flex;
+    margin: 0 80px;
+}
+
+.card{
+    max-width: 260px;
+}
+
+.card__new__season{
+    max-width: 260px;
+}
+
+.card__new__season:nth-last-child(2){
+    margin: 0 50px;
+}
+
+.card__link{
+    display: block;
+    text-decoration: none;
+    transition: transform 0.2s ease-in;
+}
+
+.card__link:hover{
+    transform: translateY(-3px)
+}
+
+.card__link p:hover{
+    transform: translateY(-3px);
+    color:coral;
+}
+
+.card__image__fon{
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+}
+
+
+.card__image{
+    width: 215px;
+    height: 264px;
+    margin: 29.5px 0 0 22.5px  ;
+}
+
+.card__image__fon__new-season{
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+}
+
+.card__image__new-season{
+    max-width: 215px;
+    max-height: 264px;
+    margin: 29.5px 0 0 22.5px  ;
+}
+
+.card__image__gucci{
+    width: 215px;
+    height: 325pxpx;
+    margin-left: 22.5px;
+}
+
+
+.card__label{
+    margin: 25px 0 10px 0;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: transform 0.2s ease-in;
+}
+
+.card__price{
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    transition: transform 0.2s ease-in;
+}
+
+.new__collaction{
+    flex-grow:1;
+    background-image: url('../images/collections/new-collection.jpg');
+    height: 730px;
+}
+
+.new__collaction__title__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 484px 0 100px 0;
+}
+
+.main__title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__new__collaction__title{
+    font-weight: 700;
+}
+
+.main__new__season__hr{
+    margin: 30px 0;
+}
+
+.button{
+    text-decoration: none;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+    border: 1px solid #FFFFFF;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in;
+}
+
+.button:hover{
+    transform: translateY(-3px);
+    color: bisque;
+}
+
+.old__collection{
+    display: flex;
+}
+
+.old__collaction__text__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 0 157px;
+}
+
+.main__old__collaction__title{
+    font-weight: 400;
+}
+
+.main__old__collaction__hr{
+    margin: 40px 0;
+}
+
+.old__collaction__text{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+    text-align: center;
+    max-width: 628px;
+}
+
+.new-receipts{
+    background-color: black;
+}
+
+.new-receipts__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.title__column{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-receipts__title{
+    font-weight: 700;
+}
+
+.new__receipts__hr{
+    margin: 39px 0 81.5px 0;
+}
+
+.card__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.card__row{
+    display: flex;
+}
+
+.card__row:first-child{
+    margin-bottom: 40px;
+}
+
+.card__row:last-child{
+    margin-bottom: 150px;
+}
+
+.сard__new-receipts:nth-last-child(3){
+    margin: 0 23px;
+}
+.сard__new-receipts:nth-last-child(2){
+    margin-right: 23px;
+}
+
+.card__image__cards__fon{
+    position: relative;
+}
+
+.card__image__cards__buttom{
+    position: absolute;
+    right: 30px;
+    top: 45%;
+}
+
+.card__image__cards__buttom:hover{
+    color:rgb(244, 252, 180);
+}
+
+.card__image__cards{
+    filter: blur(1.5px);
+}
+
+
+.articles{
+    background-color: #0F0F0F;
+}
+
+.articles__title__column{
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles__hr{
+    margin: 36px 0 57px 0;
+}
+
+.articles__rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.articles__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles__row:nth-last-child(2){
+    margin: 30px 0;
+}
+
+.articles__row__image{
+    max-width: 989px;
+}
+
+
+.articles__row__column{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 157px 175px 145px;
+}
+
+.articles__row__column:first-child{
+    margin: 53px 157px 175px 145px;
+}
+
+.articles__subtitle{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.articles__text{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.articles__row__more{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+
+.articles__row__more__label{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.partners{
+    background-color: #0F0F0F;
+}
+
+.partners__conteiner{
+    max-width: 1385px;
+    margin: 0 auto;
+}
+
+.partners__title__column{
+    display: flex;
+    flex-direction: column;
+    padding-top: 88px;
+    align-items: center;
+}
+
+.partners__title__column__hr{
+    margin: 23px 0 66px 0;
+}
+
+.partners__row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 106px;
+}
+
+footer{
+    background-image: url('../images/bacgraund/bacgraund-footer.jpg');
+}
+
+.footer__row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 67px;
+}
+
+.footer__about-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title{
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 80px 0 40px 0;
+}
+
+
+.footer__text{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 351px;
+}
+
+
+.footer__category{
+    display: flex;
+    flex-direction: column;
+    margin: 0 88px 0 30px;
+}
+
+.category__row{
+    display: flex;
+}
+
+.category__row:nth-last-child(2){
+    margin: 20px 0 20px 0;
+}
+
+.footer__button{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color:#0F0F0F;
+    padding: 10px 20px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform:lowercase;
+    transition: transform 0.2s ease-in;
+}
+
+
+.footer__button:hover{
+    transform: translateY(-3px);
+    color: bisque;
+}
+
+.footer__button__first-row{
+    margin: 0 6px;
+}
+
+.footer__button__second-row{
+    margin: 0 10px 0 0;
+}
+
+form{
+    margin-top: 26px;
+    display: flex;
+}
+
+form [type="submit"]{
+    max-width: 137px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color:#0F0F0F;
+    padding: 10px 20px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in;
+    border: none;
+}
+
+.button__send:hover{
+    transform: translateY(-3px);
+}
+
+form input{
+    background: rgba(255, 255, 255, 0.4);
+    width: 210px;
+}
+
+::-webkit-input-placeholder {
+    color: #e8e7e7;
+}
+
+.footer__line{
+    background-color: #0F0F0F;
+}
+
+.footer__line__labels{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__line__labels p{
+    padding: 17px 0;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.footer__line__labels p:last-child{
+    text-decoration: underline;
+}
